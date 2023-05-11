@@ -13,7 +13,7 @@ resource "aws_instance" "one" {
   vpc_security_group_ids = [aws_security_group.secound.id]
   availability_zone = "us-east-1a"
     tags = {
-    Name = "web-server-1"
+    Name = "aws_ec2"
   }
 }
 
